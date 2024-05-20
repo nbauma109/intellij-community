@@ -161,6 +161,10 @@ public class StructContext {
     }
   }
 
+  public Map<String, StructClass> getClasses() {
+    return classes;
+  }
+
   public LazyLoader getLoader() {
     return loader;
   }
